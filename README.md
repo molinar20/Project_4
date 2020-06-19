@@ -13,13 +13,19 @@ Information was taken from [this github page](https://github.com/fivethirtyeight
 | gap              | Size of gap in data comparing male and women with specific intersex name |
 
 
-2.  I decided to use 2nd normalized form for this. This would make it so that the name is the prime attribute. This also allows the data to be fully transitive as each value builds upon each other. Additionally, the original table is already in 1NF.
+2.  I decided to use 2nd normalized form for this first table. This would make it so that the name is the prime attribute. This also allows the data to be fully transitive as the name is dependent on the total. Additionally, the original table is already in 1NF.
+
+Table #1: Relationship between name and total
 
 | Column Header    | Data types           |  Foreign Keys           |
 | ---------------- |:--------------------:| -----------------------:|
 | Name             | Character            | Would be primary key    |
 | Total            | Numeric              | Is used. "Total"        |
+
+Table #2: Relationship between female and male ratio and name 
+
+| Name             | Character            | Would be primary key    |
 | Male Ratio       | Numeric              | Is used. "male_share"   |
 | Female Ratio     | Numeric              | Is used. "female_share" |
 
-Primary Key: name
+
