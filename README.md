@@ -1,6 +1,8 @@
 # Project_4
 
-1. METADATA:
+METADATA
+
+Information was taken from [this github page](https://github.com/fivethirtyeight/data/tree/master/unisex-names) which is featured in [this article](https://fivethirtyeight.com/features/there-are-922-unisex-names-in-america-is-yours-one-of-them/). The table used in this project lists the most common unisex names in the United States and shares the total amount of occurences and the percentage of the two sexes with listed name. 
 
 | Column Header    | Description                                                              | 
 | ---------------- |:-------------------------------------------------------------------------| 
