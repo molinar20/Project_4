@@ -30,3 +30,18 @@ Table #2: Relationship between female and male ratio and name
 | Female Ratio     | Numeric              | Is used. "female_share" |
 
 
+3. Code for creating tables
+
+  CREATE TABLE TOTALNAMES
+  (rank_id INTEGER PRIMARY KEY AUTOINCREMENT,
+   name VARCHAR(255) NOT NULL,
+   total VARCHAR(255)
+   );
+   
+   CREATE TABLE NAMESEXRATIO
+   (name VARCHAR(255) NOT NULL,
+   male_ratio REAL,
+   female_ratio REAL
+   );
+   
+   4 
