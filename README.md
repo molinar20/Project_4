@@ -25,6 +25,7 @@ Table #1: Relationship between name and total
 Table #2: Relationship between female and male ratio and name 
 
 | Name             | Character            | Would be primary key    |
+| ---------------- |:--------------------:| -----------------------:|
 | Male Ratio       | Numeric              | Is used. "male_share"   |
 | Female Ratio     | Numeric              | Is used. "female_share" |
 
