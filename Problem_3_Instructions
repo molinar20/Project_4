@@ -1,0 +1,17 @@
+#Code for creating tables for Problem 3
+
+#Table lists out the total occurences of any given name and includes rank id 
+  CREATE TABLE TOTALNAMES
+  (rank_id INTEGER PRIMARY KEY AUTOINCREMENT,
+   name VARCHAR(255) NOT NULL,
+   total VARCHAR(255)
+   );
+   
+#Table lists out the gender ratio of any given name and does not include an autoincrement rank since there is no significant higher or lower difference
+in the sex ratios.
+   CREATE TABLE NAMESEXRATIO
+   (name VARCHAR(255) NOT NULL,
+   male_ratio REAL,
+   female_ratio REAL
+   );
+   
